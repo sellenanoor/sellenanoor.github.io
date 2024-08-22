@@ -1,4 +1,4 @@
-<?php 'LANDINGPAGE/body.php'?>
+<?php include 'header.php';?>
 <link rel="stylesheet" href="styles.css">
     <section class="home" id="portfolio">
         <div class="home-content">
@@ -111,7 +111,7 @@
         </div>
         <div class="card-3">
             <div class="card-3-image">
-                <img src="hiragana2.png" alt="">
+                <img src="asset/hiragana2.png" alt="">
             </div>
             <div class="card-3-content">
                 <h2>Project 3</h2>
@@ -140,5 +140,5 @@
             <input type="submit" value="Send Message" class="btn-1">
         </form>
     </section> 
-    <? 'LANDINGPAGE/footer.php'?>
-    
+    </section>
+<?php include 'footer.php';?>

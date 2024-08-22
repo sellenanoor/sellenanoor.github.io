@@ -1,27 +1,5 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> portfolio </title>
+<?php 'LANDINGPAGE/body.php'?>
 <link rel="stylesheet" href="styles.css">
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-</head>
-<body>
-    <header class="header">
-        <a href="#" class="logo"><span>Sell</span>ena</a>
-        <nav class="navbar">
-            <a href="#portfolio" class="active"><P>Portfolio</a>
-            <a href="#about">About</a>
-            <a href="#project">Project</a>
-            <a href="#experience">Experience</a>
-            <a href="#">Education</a>
-        </nav>
-
-        <a href="#contactme" class="contact" >contact Me</a>
-    </header>
-
     <section class="home" id="portfolio">
         <div class="home-content">
             <h3>hi</h3>
@@ -148,108 +126,19 @@
     </div>
     </div>
 </section>
-
-
-
-
-
-            
-       
-<!--
-    <div class="container" id="project">
-        <div class="card">
-        <div class="project1-content">
-            <h1 class="heading">Project 1</h1>
-
-            <h2>Web Profile </h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla error quisquam cum quasi itaque dolorem laborum fugiat 
-                fuga aspernatur architecto assumenda 
-                ullam nisi atque, suscipit, facilis nostrum 
-                reiciendis explicabo eos.Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit. 
-            Voluptate officiis labore, nesciunt 
-            est illum incidunt quae porro. Aliquid 
-            laborum facere deleniti, culpa assumenda 
-            consequatur dolorum nihil adipisci aut accusamus nulla!</p>
-            <a href="#">Read More</a>
-        </div>
-
-
-        <div class="project-1-img">
-            <img src="smea.png" alt="">
-        </div>
-        </div>
-
-    <div class="project-2">
-        <div class="project2-img">
-            <img src="figma.png" alt="">
-        </div>
-
-        <div class="project2-content">
-            <h3 class="heading">Project 2</h3>
-
-            <h2>Figma</h2>
-            <p>Lorem ipsum dolor sit amet 
-            consectetur adipisicing elit. 
-            Totam est blanditiis voluptatibus 
-            eum hic, quam voluptatem consectetur 
-            nesciunt autem facilis possimus pariatur 
-            optio, laborum exercitationem sint animi 
-            ullam quae. Mollitia.</p>
-        </div>
-    </div>
-    </section> -->
-
-    <section class="contact-form" id="contactme">
+<section class="contact-form" id="contactme">
         <h2 class="contact-me">Contact <span>me</span></h2>
 
         <form action="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+                <input type="text" id='name'placeholder="Full Name">
+                <input type="email" id='email'placeholder="Email">
             </div>
 
-            <div class="input-box">
-                <input type="number" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
-            </div>
-
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message">
+            <textarea name="message" id="messsage" cols="30" rows="10" placeholder="Your Message">
             </textarea>
             <input type="submit" value="Send Message" class="btn-1">
         </form>
-    </section>
-
-    <footer class="footer">
-
-        <div class="sosial">
-            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-            <a href="#"><i class='bx bxl-linkedin-square'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-        </div>
-        <ul class="list">
-            <li>
-                <a href="#">FAQ</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">About Me</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-        </ul>
-
-        <p>&copy;
-            2024 [Sellena].All rights reserved.
-        </p>
-
-    </footer>
-</body>
-</html> 
+    </section> 
+    <? 'LANDINGPAGE/footer.php'?>
+    
